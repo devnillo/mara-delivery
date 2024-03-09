@@ -33,7 +33,21 @@ export default function Home() {
             />
           </div>
         </section>
-        
+        <section className="px-3 py-4">
+          <h2 className="font-semibold text-3xl my-4">Junte-se à nós</h2>
+          <div className="content w-[100vw] flex">
+            <div className="leftContent w-[50%] flex justify-center items-center">
+              <div className="">
+                <p className="text-[3vw] text-center font-bold">
+                  Solução de venda online com site e deshboard!
+                </p>
+              </div>
+            </div>
+            <div className="rightContent w-[50vw] flex justify-center">
+              <img className="w-[70%] h-auto" src="/cell.png" alt="madsad" />
+            </div>
+          </div>
+        </section>
         
       </main>
 
