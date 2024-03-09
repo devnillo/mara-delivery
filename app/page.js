@@ -48,7 +48,67 @@ export default function Home() {
             </div>
           </div>
         </section>
-        
+        <section>
+          <h2 className="text-[3vw] font-semibold text-center">
+            Quais os principais recursos do <span className="text-primary">MARA DELIVERY</span>?
+          </h2>
+          <div className="content p-4">
+            <div className="cards flex gap-4 flex-1">
+              <div className="card bg-gray-100 border-2 p-2 rounded-2xl border-gray-300 flex flex-col items-center gap-4">
+                <img src="/cardImg.webp" alt="aaaaaaaaaa" />
+                <h3 className="text-[150%] text-center font-semibold">
+                  CARDÁPIO DIGITAL INTERATIVO
+                </h3>
+                <p className="text-center">
+                  Receba todos os pedidos através de um cardápio digital
+                  totalmente personalizado.
+                </p>
+                <button className="bg-primary p-2 font-semibold text-white w-[90%]">
+                  SAIBA MAIS
+                </button>
+              </div>
+              <div className="card bg-gray-100 border-2 p-2 rounded-2xl border-gray-300 flex flex-col items-center gap-4">
+                <img src="/cardImg.webp" alt="aaaaaaaaaa" />
+                <h3 className="text-[150%] text-center font-semibold">
+                  CARDÁPIO DIGITAL INTERATIVO
+                </h3>
+                <p className="text-center">
+                  Receba todos os pedidos através de um cardápio digital
+                  totalmente personalizado.
+                </p>
+                <button className="bg-primary p-2 font-semibold text-white w-[90%]">
+                  SAIBA MAIS
+                </button>
+              </div>
+              <div className="card bg-gray-100 border-2 p-2 rounded-2xl border-gray-300 flex flex-col items-center gap-4">
+                <img src="/cardImg.webp" alt="aaaaaaaaaa" />
+                <h3 className="text-[150%] text-center font-semibold">
+                  CARDÁPIO DIGITAL INTERATIVO
+                </h3>
+                <p className="text-center">
+                  Receba todos os pedidos através de um cardápio digital
+                  totalmente personalizado.
+                </p>
+                <button className="bg-primary p-2 font-semibold text-white w-[90%]">
+                  SAIBA MAIS
+                </button>
+              </div>
+              <div className="card bg-gray-100 border-2 p-2 rounded-2xl border-gray-300 flex flex-col items-center gap-4">
+                <img src="/cardImg.webp" alt="aaaaaaaaaa" />
+                <h3 className="text-[150%] text-center font-semibold">
+                  CARDÁPIO DIGITAL INTERATIVO
+                </h3>
+                <p className="text-center">
+                  Receba todos os pedidos através de um cardápio digital
+                  totalmente personalizado.
+                </p>
+                <button className="bg-primary p-2 font-semibold text-white w-[90%]">
+                  SAIBA MAIS
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
 
       <ContactFlutuantComponent />
