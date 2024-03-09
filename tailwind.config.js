@@ -7,10 +7,18 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        primary: "#C43C1E",
+        primary1: "#DF4D2D",
+      },
+      keyframes: {
+        showContactFlutuant: {
+          "0%": { right: "-100%" },
+          "100%": { right: "1%" },
+        },
+        animation: {
+          show: "showContactFlutuant 1s ease-in-out infinite",
+        },
       },
     },
   },
